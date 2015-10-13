@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Question "
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="1"
+            android:textSize="32sp" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Guess:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:text="5"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_gravity="fill_horizontal"
+            android:text=" ?"
+            >
+			
+            <requestFocus />
+        </EditText>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_gravity="left"
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="..." />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="7"
+        android:orientation="horizontal"
+        android:rowCount="6" >
+
+        <Button
+            android:id="@+id/numDel_button"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:text="DEL" />
+
+        <Button
+            android:id="@+id/num0_button"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/numHash_button"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:text="#" />
+
+        <Button
+            android:id="@+id/numMinus_button"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/num9_button"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/num8_button"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/num7_button"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/num6_button"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/num2_button"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/num1_button"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/num3_button"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/num4_button"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/num5_button"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:text="5" />
+    </GridLayout>
+
+</LinearLayout>

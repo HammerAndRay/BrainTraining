@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brain Training</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="NewGame">New Game</string>
+    <string name="Continue">Continue</string>
+    <string name="About">About</string>
+    <string name="Exit">Exit</string>
+    <string name="Welcome">Welcome</string>
+    <string name="AboutText">The rules of the game are as follows: \n\nYou will have 10 questions to answer within a 10 second time limit per question. The score will be determined by how many question you answered correctly and how quickly you answered them.
+       \nTurning on Hints from the settings will allow you to try questions up to 4 times. \n\nDon\'t forget to Round.
+        </string>
+    <string name="about_name">Rules</string>
+    <string name="difficulty_title">Select your difficulty</string>
+    <string name="ScoreText">Your Score</string>
+    <string name="Novice">Novice</string>
+    <string name="Easy">Easy</string>
+    <string name="Medium">Medium</string>
+    <string name="Guru">Guru</string>
+
+</resources>
